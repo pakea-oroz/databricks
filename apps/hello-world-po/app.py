@@ -18,7 +18,7 @@ import dash_bootstrap_components as dbc
 # Initialize the Dash app with Bootstrap styling
 dash_app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-chart_data = pd.DataFrame({'x': [x for x in range(50)],
+chart_data = pd.DataFrame({'x': [x for x in range(30)],
                            'y': [2 ** x for x in range(30)]})
 
 # Define the app layout
